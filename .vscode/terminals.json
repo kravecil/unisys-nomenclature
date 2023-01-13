@@ -1,0 +1,28 @@
+{
+    "autorun": true,
+    "terminals": [
+        {
+            "name": "root",
+            "focus": false,
+            "command": ""
+        },
+        {
+            "name": "env",
+            "focus": true,
+            "command": "poetry shell"
+        },
+        {
+            "name": "django dev",
+            "focus": false,
+            "commands": [
+                "poetry shell",
+                "python manage.py runserver"
+            ]
+        },
+        {
+            "name": "yarn dev",
+            "focus": false,
+            "command": "yarn dev"
+        }
+    ]
+}

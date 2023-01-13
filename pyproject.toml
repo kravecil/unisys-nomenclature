@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nomenclature-django-vite-vue-quasar"
+version = "0.1.0"
+description = ""
+authors = ["I.Kravec <I.Kravec@ws377.server.local>"]
+readme = "README.md"
+packages = [{include = "nomenclature_django_vite_vue_quasar"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.2"
+django-vite = "^2.0.2"
+requests = "^2.28.1"
+django-extensions = "^3.2.1"
+faker = "^15.3.1"
+djangorestframework = "3.14.0"
+openpyxl = "^3.0.10"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

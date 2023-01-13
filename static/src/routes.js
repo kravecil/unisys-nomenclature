@@ -1,0 +1,18 @@
+export default [
+    { path: '/',
+        component: () => import('@/pages/Index.vue'), name: 'index'},
+    { path: '/requests',
+        component: () => import('@/pages/RequestsPage.vue'), name: 'requests'},
+    { path: '/nomenclature',
+        component: () => import('@/pages/NomenclaturePage.vue'), name: 'nomenclature'},
+    { path: '/new-request',
+        component: () => import('@/pages/NewRequestPage.vue'), name: 'newRequest'},
+    { path: '/update-request/:id',
+        component: () => import('@/pages/UpdateRequestPage.vue'), name: 'updateRequest'},
+    { path: '/product/:id',
+        component: () => import('@/pages/ProductDetailsPage.vue'), name: 'productDetails'},
+    { path: '/request/:id',
+        component: () => import('@/pages/ProductDetailsPage.vue'), name: 'requestDetails'},
+    { path: '/enses',
+        component: () => import('@/pages/EnsListPage.vue'), name: 'enses'},
+]

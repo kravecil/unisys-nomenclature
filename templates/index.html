@@ -1,0 +1,18 @@
+{% load django_vite %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ЕИС: НСИ</title>
+
+    <link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+
+    {% vite_hmr_client %}
+    {% vite_asset 'main.js' %}
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

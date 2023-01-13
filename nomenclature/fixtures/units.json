@@ -1,0 +1,29 @@
+[
+    {
+        "model": "nomenclature.unit",
+        "pk": 1,
+        "fields": {
+            "name": "сантиметр",
+            "plural": "сантиметры",
+            "shortname": "см"
+        }
+    },
+    {
+        "model": "nomenclature.unit",
+        "pk": 2,
+        "fields": {
+            "name": "литр",
+            "plural": "литры",
+            "shortname": "см"
+        }
+    },
+    {
+        "model": "nomenclature.unit",
+        "pk": 3,
+        "fields": {
+            "name": "килограмм",
+            "plural": "киллограммы",
+            "shortname": "кг"
+        }
+    }
+]
